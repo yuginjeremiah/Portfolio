@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+}
+
+.bg {
+    background-image: url('bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.dv {
+    display: flex;
+    justify-content: space-between;
+    background: aliceblue;
+    box-shadow: 0px 0px 5px;
+}
+
+.hf {
+    font-size: 17px;
+    padding: 15px 30px;
+    color: black;
+    cursor: pointer;
+}
+
+.nav {
+    display: flex;
+    list-style-type: none;
+    font-size: 17px;
+    margin-right: 0px;
+}
+
+.nav li {
+    padding: 15px 30px;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.nav a:hover {
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 768px) {
+    .dv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 40px;
+    }
+}
+
+/*  */
+
+.hf2 {
+    font-size: 40px;
+    color: black;
+    margin-top: 190px;
+    margin-left: 50px;
+}
+
+.pf {
+    font-size: 25px;
+    color: black;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .hf2 {
+        font-size: 30px;
+    }
+
+    .pf {
+        font-size: 17px;
+    }
+}
+
+/*  */
+
+.bg2 {
+    background-color: black;
+    height: 400px;
+}
+
+.hf3 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    color: aliceblue;
+}
+
+@media screen and (max-width: 768px) {
+    .bg2 {
+        height: 600px;
+    }
+}
+
+/*  */
+
+.dv2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dv3 {
+    margin-left: 15px;
+    width: 610px;
+    height: 550px;
+}
+
+.hf4 {
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    margin-top: 150px;
+}
+
+.pf2 {
+    text-align: center;
+    font-size: 17px;
+    color: black;
+}
+
+.img {
+    margin-top: 10px;
+    margin-left: 100px;
+    width: 430px;
+    height: 530px;
+}
+
+@media screen and (max-width: 768px) {
+    .dv2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dv3 {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dv2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dv3 {
+        width: 460px;
+        height: 500px;
+        margin-left: 0px;
+    }
+
+    .hf4 {
+        margin-top: 70px;
+    }
+
+    .pf2 {
+        font-size: 14px;
+    }
+
+    .img {
+        margin-left: 10px;
+        width: 440px;
+        height: 470px;
+    }
+}
+
+/*  */
+
+.dv4 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dv5 {
+    width: 610px;
+    height: 700px;
+    margin-left: 15px;
+}
+
+.hf5 {
+    font-size: 30px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.img2 {
+    width: 500px;
+    height: 600px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .dv4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dv5 {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dv4 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dv5 {
+        margin-left: 0px;
+        width: 430px;
+        height: 650px;
+    }
+
+    .img2 {
+        width: 400px;
+        height: 500px;
+        margin-top: 10px;
+        margin-left: 15px;
+    }
+}
+
+/*  */
+
+.dv6 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dv7 {
+    margin-left: 15px;
+    width: 610px;
+    height: 230px;
+}
+
+.pf3 {
+    text-align: center;
+    color: black;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 768px) {
+    .dv6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dv7 {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .dv6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .dv7 {
+        margin-left: 0px;
+        width: 430px;
+    }
+}
